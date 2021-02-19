@@ -34,6 +34,7 @@ Events that you can dispatch to trigger various reactions in the client.
 ##### Different dialog examples:
 
 **Empty dialog**
+
 Puts a half transparent black overlay on top of the game as soon as possible, which prevents the player from interacting with the game until the empty dialog is closed.
 
 ```
@@ -46,21 +47,30 @@ Puts a half transparent black overlay on top of the game as soon as possible, wh
 {event: 'closeDialog'}
 ```
 
+
+
 **Instant information dialog**
+
 Opens a message as soon as possible. Can be closed by user but also through a close event.
 
 ```
 {event: 'showDialog', title: 'Reality check', message: 'You have played for one hour'}
 ```
 
+
+
 **Graceful information dialog**
+
 Opens a message when a game round is over. Can be closed by user but also through a close event.
 
 ```
 {event: 'showDialog', priority: 'graceful', title: 'Reality check', message: 'You have played for one hour'}
 ```
 
+
+
 **Instant error dialog**
+
 Opens an error dialog as soon as possible. 
 `IMPORTANT:` Error dialogs are non recoverable and forces the user to quit/close the game.
 
