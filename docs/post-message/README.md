@@ -7,12 +7,20 @@ Events that you can dispatch to trigger various reactions in the client.
 
 ### Custom dialog events
 
+
+
+
 #### Test table from jekyll docs
 | Priority apples | Second priority | Third priority |
 |-------|--------|---------|
 | ambrosia | gala | red delicious |
 | pink lady | jazz | macintosh |
 | honeycrisp | granny smith | fuji |
+
+
+
+
+
 
 #### API Reference
 | parameter | type | default value | options | description |
@@ -23,6 +31,10 @@ Events that you can dispatch to trigger various reactions in the client.
 | **hidden** | boolean | `false` |  | Hides the dialog window and will only show a half transparent overlay over the game, so you can show your own dialog window. |
 | **title** | string | `""` |  | Title of the message |
 | **message** | string | `""` |  | Message to the player |
+
+
+
+
 
 ---
 
