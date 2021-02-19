@@ -7,6 +7,13 @@ Events that you can dispatch to trigger various reactions in the client.
 
 ### Custom dialog events
 
+#### Test table from jekyll docs
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
 #### API Reference
 | parameter | type | default value | options | description |
 |--|--|--|--|--|
