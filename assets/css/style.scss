@@ -4,5 +4,11 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    padding: 1rem 6rem;
+    padding: 0rem 6rem;
+    color: #bd1622;
+    background-color: black;
+    background-image: none;
+}
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {    
+    color: #bd1622;
 }
