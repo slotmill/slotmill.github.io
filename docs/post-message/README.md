@@ -8,14 +8,14 @@ Events that you can dispatch to trigger various reactions in the client.
 ### Custom dialog events
 
 #### API Reference
-| parameter |type| default value | options | description |
+| parameter | type | default value | options | description |
 |--|--|--|--|--|
-|**event**|string| N/A|`"showDialog"`, `"closeDialog"`| The `"showDialog"` event shows a dialog with the according to the chosen parameters. The `"closeDialog"` event closes the current visible dialog.
-| **type** |string| `"information"` | `"information"`, `"error"` | The `"information"` dialog is recoverable and can be closed by the user or by sending a `"closeDialog"` event. While `"error"` is non recoverable and will close the game client. |
-| **priority** |string| `"instant"` | `"instant"`, `"graceful"` | `"instant"` priority means that the dialog will show as soon as any animation has stopped playing. While `"graceful"` waits until a game round is over.|
-| **hidden** |boolean| `false` |  | Hides the dialog window and will only show a half transparent overlay over the game, so you can show your own dialog window.|
-| **title** |string| `""` | | Title of the message |
-| **message** |string| `""` | | Message to the player |
+| **event** | string | N/A | `"showDialog"`, `"closeDialog"` | The `"showDialog"` event shows a dialog with the according to the chosen parameters. The `"closeDialog"` event closes the current visible dialog. |
+| **type** | string | `"information"` | `"information"`, `"error"` | The `"information"` dialog is recoverable and can be closed by the user or by sending a `"closeDialog"` event. While `"error"` is non recoverable and will close the game client. |
+| **priority** | string | `"instant"` | `"instant"`, `"graceful"` | `"instant"` priority means that the dialog will show as soon as any animation has stopped playing. While `"graceful"` waits until a game round is over. |
+| **hidden** | boolean | `false` |  | Hides the dialog window and will only show a half transparent overlay over the game, so you can show your own dialog window. |
+| **title** | string | `""` |  | Title of the message |
+| **message** | string | `""` |  | Message to the player |
 
 ---
 
