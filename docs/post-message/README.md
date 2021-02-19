@@ -7,10 +7,9 @@ Events that you can dispatch to trigger various reactions in the client.
 
 ### Custom dialog events
 
-
-
-
 #### Test table from jekyll docs
+
+
 | Priority apples | Second priority | Third priority |
 |-------|--------|---------|
 | ambrosia | gala | red delicious |
@@ -18,11 +17,9 @@ Events that you can dispatch to trigger various reactions in the client.
 | honeycrisp | granny smith | fuji |
 
 
-
-
-
-
 #### API Reference
+
+
 | parameter | type | default value | options | description |
 |--|--|--|--|--|
 | **event** | string | N/A | `"showDialog"`, `"closeDialog"` | The `"showDialog"` event shows a dialog with the according to the chosen parameters. The `"closeDialog"` event closes the current visible dialog. |
